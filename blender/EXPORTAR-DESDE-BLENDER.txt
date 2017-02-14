@@ -1,0 +1,25 @@
+
+===========================================================
+PASOS PARA IMPORTAR MODELOS Y ESCENAS DE BLENDER EN LIBGDX:
+===========================================================
+
+En Blender:
+
+1) seleccionar todos los modelos para exportar (generalmente hay que excluir la cámara y las lámparas)
+2) exportar a fbx con estas opciones:
+		a) MARCAR 'selected objects'
+		b) cambiar escala a 0.01 
+
+En linea de comandos:
+
+3) fbx-conv -v -f scene.fbx 
+
+
+======================================
+NOTAS: 
+https://github.com/libgdx/libgdx/wiki/Importing-Blender-models-in-LibGDX
+
+En Blender, 1 unidad = 1 metro, pero en LibGDX 1 unidad = 1 cm, haciendo que los modelos importados sean 100x más grandes!
+Así que siempre hay que cambiar las opciones de exportación de escala 1.0 a 0.01.
+
+Además, en la utilidad fbx-conv siempre hay que indicar el parámetro -f, para convertir los ejes de coordenadas de Blender a LibGDX.

@@ -16,6 +16,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.labdogstudio.tutorial.tut1.Basic3DTest;
 import com.labdogstudio.tutorial.tut1.Basic3DTest2;
+import com.labdogstudio.tutorial.tut10.ShapeTest;
 import com.labdogstudio.tutorial.tut2.LoadModelsTest;
 import com.labdogstudio.tutorial.tut3.LoadSceneTest1;
 import com.labdogstudio.tutorial.tut3.LoadSceneTest2;
@@ -42,11 +43,11 @@ public class MenuScreen extends BaseScreen {
 	static Class[] testClazz = {Basic3DTest.class, Basic3DTest2.class, 
 			LoadModelsTest.class, LoadSceneTest1.class, LoadSceneTest2.class, LoadSceneTest3.class, LoadSceneTest4.class, 
 			BehindTheScenesTest.class, BehindTheScenesTest2.class, ShaderTest.class, ShaderTest2.class, ShaderTest3.class, 
-			FrustumCullingTest.class, FrustumCullingTest2.class, Test.class, RayPickingTest.class};
+			FrustumCullingTest.class, FrustumCullingTest2.class, Test.class, RayPickingTest.class, ShapeTest.class};
 	static String[] testNames = {"Basic 3D Test", "Basic 3D Test 2", 
 			"Load Models Test", "Load Scene Test 1", "Load Scene Test 2", "Load Scene Test 3", "Load Scene Test 4",
 			"Behind The Scenes Test", "Behind The Scenes Test 2", "Shader Test", "Shader Test 2", "Shader Test 3", 
-			"Frustum Culling Test",	"Frustum Culling Test 2", "Test", "Ray Picking Test"};
+			"Frustum Culling Test",	"Frustum Culling Test 2", "Test", "Ray Picking Test", "Shape Test"};
 	
 	public MenuScreen(Game game) {
 		super(game);

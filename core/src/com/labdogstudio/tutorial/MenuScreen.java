@@ -20,6 +20,9 @@ import com.labdogstudio.tutorial.tut10.ShapeTest;
 import com.labdogstudio.tutorial.tut11.BulletTest;
 import com.labdogstudio.tutorial.tut11.BulletTest2;
 import com.labdogstudio.tutorial.tut11.BulletTest3;
+import com.labdogstudio.tutorial.tut12.BulletTest4;
+import com.labdogstudio.tutorial.tut12.BulletTest5;
+import com.labdogstudio.tutorial.tut12.BulletTest6;
 import com.labdogstudio.tutorial.tut2.LoadModelsTest;
 import com.labdogstudio.tutorial.tut3.LoadSceneTest1;
 import com.labdogstudio.tutorial.tut3.LoadSceneTest2;
@@ -47,12 +50,12 @@ public class MenuScreen extends BaseScreen {
 			LoadModelsTest.class, LoadSceneTest1.class, LoadSceneTest2.class, LoadSceneTest3.class, LoadSceneTest4.class, 
 			BehindTheScenesTest.class, BehindTheScenesTest2.class, ShaderTest.class, ShaderTest2.class, ShaderTest3.class, 
 			FrustumCullingTest.class, FrustumCullingTest2.class, Test.class, RayPickingTest.class, ShapeTest.class,
-			BulletTest.class, BulletTest2.class, BulletTest3.class};
+			BulletTest.class, BulletTest2.class, BulletTest3.class, BulletTest4.class, BulletTest5.class, BulletTest6.class};
 	static String[] testNames = {"Basic 3D Test", "Basic 3D Test 2", 
 			"Load Models Test", "Load Scene Test 1", "Load Scene Test 2", "Load Scene Test 3", "Load Scene Test 4",
 			"Behind The Scenes Test", "Behind The Scenes Test 2", "Shader Test", "Shader Test 2", "Shader Test 3", 
 			"Frustum Culling Test",	"Frustum Culling Test 2", "Test", "Ray Picking Test", "Shape Test",
-			"Bullet Test", "Bullet Test 2", "Bullet Test 3"};
+			"Bullet Test", "Bullet Test 2", "Bullet Test 3", "Bullet Test 4", "Bullet Test 5", "Bullet Test 6"};
 	
 	public MenuScreen(Game game) {
 		super(game);
